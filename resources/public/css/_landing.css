@@ -1,0 +1,10 @@
+.login {
+  padding: 12px 0;
+}
+.login form {
+  margin: 40px 150px;
+}
+.login form label {
+  display: flex;
+  flex-direction: column;
+}

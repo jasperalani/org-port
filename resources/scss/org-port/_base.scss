@@ -1,0 +1,63 @@
+html {
+    font-size: 62.5%;
+    font-family: $font-family-base;
+}
+
+h1 {
+    font-size: $h1-font-size;
+}
+
+h2 {
+    font-size: $h2-font-size;
+}
+
+h3 {
+    font-size: $h3-font-size;
+}
+
+h4 {
+    font-size: $h4-font-size;
+}
+
+h5 {
+    font-size: $h5-font-size;
+}
+
+h6 {
+    font-size: $h6-font-size;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @include media-breakpoint-down(md) {
+        text-align: center;
+    }
+}
+
+p, span {
+    font-size: $font-size-regular;
+}
+
+input, button {
+    margin: 0px 0px 18px;
+    padding: 8px;
+    font-size: $font-size-regular;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button {
+    font-size: $font-size-regular;
+    width: 45%;
+
+    &:hover {
+        background-color: #bbbbbb;
+    }
+
+    &:focus {
+        background-color: #dbdada;
+    }
+}
+
+.box-wrapper {
+    margin-top: 32px;
+}

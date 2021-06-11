@@ -1,0 +1,28 @@
+.login {
+    padding: 12px 0;
+}
+
+.login, .register {
+    form {
+        padding: 32px;
+        border: 1px solid lightgray;
+        border-radius: 8px;
+    }
+}
+
+form {
+    margin: 0px 150px;
+    
+    h3 {
+        margin-bottom: 2rem;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: $font-size-medium;
+        }
+    }
+}
